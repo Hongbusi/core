@@ -9,9 +9,13 @@
     "type": "git",
     "url": "git+https://github.com/Hongbusi/core.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "hongbusi",
+    "vue",
+    "cli"
+  ],
+  "author": "Hongbusi",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Hongbusi/core/issues"
   },
