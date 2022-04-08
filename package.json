@@ -1,7 +1,7 @@
 {
   "name": "hongbusi",
   "version": "0.0.1",
-  "description": "Command line tool for front-end development.",
+  "description": "Command line tool.",
   "bin": {
     "hongbusi": "bin/hongbusi.js"
   },
@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
