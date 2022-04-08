@@ -2,8 +2,16 @@
   "name": "hongbusi",
   "version": "0.0.1",
   "description": "Command line tool for front-end development.",
+  "bin": {
+    "hongbusi": "bin/hongbusi.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -19,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Hongbusi/core/issues"
   },
-  "homepage": "https://github.com/Hongbusi/core#readme"
+  "homepage": "https://github.com/Hongbusi/core#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
