@@ -1,3 +1,1 @@
 # core
-
-Command line tool.
