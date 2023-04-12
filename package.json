@@ -1,6 +1,6 @@
 {
   "name": "hongbusi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command line tool.",
   "author": "Hongbusi",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "build": "unbuild",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "bumpp"
+    "release": "bumpp && npm publish"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",
