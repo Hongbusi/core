@@ -2,33 +2,40 @@
   "name": "hongbusi",
   "version": "0.0.1",
   "description": "Command line tool.",
+  "author": "Hongbusi",
+  "license": "MIT",
+  "homepage": "https://github.com/Hongbusi/core#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hongbusi/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hongbusi/core/issues"
+  },
+  "keywords": [
+    "hongbusi",
+    "cli"
+  ],
   "bin": {
     "hongbusi": "bin/hongbusi.js"
   },
   "files": [
     "bin",
-    "lib"
+    "dist"
   ],
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "build": "unbuild",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "bumpp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hongbusi/core.git"
-  },
-  "keywords": [
-    "hongbusi",
-    "vue",
-    "cli"
-  ],
-  "author": "Hongbusi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Hongbusi/core/issues"
-  },
-  "homepage": "https://github.com/Hongbusi/core#readme",
   "devDependencies": {
-    "typescript": "^4.6.3"
+    "@antfu/eslint-config": "^0.38.4",
+    "@types/node": "^18.15.11",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.0",
+    "vitest": "^0.30.1"
   }
 }

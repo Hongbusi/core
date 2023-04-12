@@ -1,27 +1,12 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
+    "module": "esnext",
+    "lib": ["esnext"],
     "moduleResolution": "node",
-
-    "outDir": "lib",
-    "sourceMap": true,
-    "declaration": true,
-
-    "newLine": "lf",
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "strictBindCallApply": true,
+    "esModuleInterop": true,
+    "strict": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": true,
-    "stripInternal": true
-  },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "resolveJsonModule": true
+  }
 }
