@@ -17,7 +17,7 @@
     "cli"
   ],
   "bin": {
-    "hongbusi": "bin/hongbusi.js"
+    "hongbusi": "dist/index.mjs"
   },
   "files": [
     "bin",
